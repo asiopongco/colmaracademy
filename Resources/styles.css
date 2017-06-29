@@ -1,0 +1,103 @@
+h3{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+
+/*-----------------------------------HEADER-----------------------------------*/
+
+header{
+  display: flex;
+  align-items: center;
+  height: 64px;
+  background-color: #8DA1B9;
+  border-bottom: 1px solid black;
+}
+
+header .logo{
+  display: flex;
+  align-items: center;
+}
+
+header nav{
+  display: block;
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 16px;
+}
+
+header img{
+  margin-left: 24px;
+  height: 50px;
+}
+
+.colmar{
+  font-family: helvetica;
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.academy{
+  font-family: helvetica;
+  color: lightgray;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+nav span{
+  margin-right: 16px;
+  color: gray;
+}
+
+/*-----------------------------------BANNER-----------------------------------*/
+
+.banner{
+  display: flex;
+  align-items: center;
+  background-color: #DAD4EF;
+}
+
+.container{
+  width: 60%;
+  height: 500px;
+  overflow: hidden;
+  margin: 32px 40px 32px 24px;
+}
+
+.banner img{
+  max-width: 100%;
+  height: auto;
+  display:inline-block;
+}
+
+.banner .caption{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.caption h1{
+  font-family: helvetica;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #313A36;
+  margin-bottom: 10px;
+}
+
+.banner .button{
+  display: flex;
+  font-family: helvetica;
+  font-size: 1.2rem;
+  background-color: #8DA1B9;
+  color: #DAD4EF;
+  font-weight: 500;
+  width: 60%;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+}
